@@ -6,7 +6,7 @@
 #    By: eburnet <eburnet@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/02/03 11:48:21 by eburnet           #+#    #+#              #
-#    Updated: 2025/04/03 13:22:30 by eburnet          ###   ########.fr        #
+#    Updated: 2025/04/09 10:45:26 by eburnet          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,7 +15,7 @@ CC = c++
 FLAGS = -Wall -Wextra -Werror -std=c++98
 SRCS = main.cpp
 OBJS = $(SRCS:.cpp=.o)
-HEADERS = iter.hpp
+HEADERS = Array.hpp
 
 all: $(NAME)
 
