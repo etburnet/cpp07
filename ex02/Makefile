@@ -6,13 +6,13 @@
 #    By: eburnet <eburnet@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/02/03 11:48:21 by eburnet           #+#    #+#              #
-#    Updated: 2025/04/09 10:45:26 by eburnet          ###   ########.fr        #
+#    Updated: 2025/04/25 10:47:23 by eburnet          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = ex02
 CC = c++
-FLAGS = -Wall -Wextra -Werror -std=c++98
+FLAGS = -Wall -Wextra -Werror -std=c++98 -g3
 SRCS = main.cpp
 OBJS = $(SRCS:.cpp=.o)
 HEADERS = Array.hpp
